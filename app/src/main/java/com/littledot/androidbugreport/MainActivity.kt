@@ -1,18 +1,15 @@
 package com.littledot.androidbugreport
 
-import android.media.Image
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import coil.Coil
-import coil.api.load
 import coil.api.loadAny
 import coil.decode.GifDecoder
-import com.airbnb.epoxy.EpoxyController
-import com.airbnb.epoxy.EpoxyModelClass
-import com.airbnb.epoxy.EpoxyModelWithHolder
-import com.airbnb.epoxy.EpoxyViewHolder
 import kotlinx.android.synthetic.main.coil_gif_scale.*
 
+/**
+ * https://github.com/coil-kt/coil/issues/206
+ */
 class MainActivity : AppCompatActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
