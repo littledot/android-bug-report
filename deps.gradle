@@ -49,7 +49,7 @@ project.ext {
     autodisposeArchcomponents = "com.uber.autodispose:autodispose-android-archcomponents:1.4.0"
     autoParcelProcessor = "com.github.frankiesardo:auto-parcel-processor:0.3.1"
     butterknife = "com.jakewharton:butterknife:7.0.1"
-    v = "0.10.1"
+    v = "0.11.0"
     coil = "io.coil-kt:coil:$v"
     coilBase = "io.coil-kt:coil-base:$v"
     coilGif = "io.coil-kt:coil-gif:$v"
