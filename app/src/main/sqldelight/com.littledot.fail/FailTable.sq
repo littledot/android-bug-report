@@ -1,0 +1,7 @@
+CREATE TABLE FailTable (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT NOT NULL
+);
+
+select:
+SELECT * FROM FailTable;

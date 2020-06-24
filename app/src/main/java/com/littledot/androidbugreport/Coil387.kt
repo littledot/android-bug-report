@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.coil_387.*
 /**
  * https://github.com/coil-kt/coil/issues/387
  */
-class Coil387Activity : AppCompatActivity() {
+class Coil387 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
