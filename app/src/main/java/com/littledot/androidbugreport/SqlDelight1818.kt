@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
 /**
- * https://github.com/
+ * https://github.com/cashapp/sqldelight/issues/1818
  */
 class SqlDelight1818 : AppCompatActivity() {
 

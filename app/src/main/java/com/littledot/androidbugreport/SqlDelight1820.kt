@@ -6,7 +6,7 @@ import com.squareup.sqldelight.android.AndroidSqliteDriver
 import kotlinx.android.synthetic.main.main.*
 
 /**
- * https://github.com/
+ * https://github.com/cashapp/sqldelight/issues/1820
  */
 class SqlDelight1820 : AppCompatActivity() {
 
