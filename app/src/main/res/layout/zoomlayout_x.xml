@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.otaliastudios.zoom.ZoomLayout
+        android:id="@+id/zoom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:maxZoom="1000.00"
+        app:minZoom="1.0"
+        app:overPinchable="false"
+        app:overScrollHorizontal="false"
+        app:overScrollVertical="false">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.otaliastudios.zoom.ZoomLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn160"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="160p" />
+
+        <Button
+            android:id="@+id/btn320"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="640p" />
+
+        <Button
+            android:id="@+id/btn640"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1920p" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

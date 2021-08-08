@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SqlDelight1820"
-            android:label="ABR:SqlDelight1820">
+            android:name=".ZoomLayoutX"
+            android:label="ABR:ZoomLayout">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
