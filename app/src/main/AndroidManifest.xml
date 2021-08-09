@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ZoomLayoutX"
+            android:name=".ZoomLayout209"
             android:label="ABR:ZoomLayout">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

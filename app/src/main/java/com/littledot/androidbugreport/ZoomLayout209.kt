@@ -2,16 +2,16 @@ package com.littledot.androidbugreport
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.zoomlayout_x.*
+import kotlinx.android.synthetic.main.zoomlayout_209.*
 
 /**
- * https://github.com/cashapp/sqldelight/issues/1820
+ * https://github.com/natario1/ZoomLayout/issues/209
  */
-class ZoomLayoutX : AppCompatActivity() {
+class ZoomLayout209 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.zoomlayout_x)
+        setContentView(R.layout.zoomlayout_209)
 
         btn160.setOnClickListener {
             loadImg(R.drawable.zoomlayout160)
