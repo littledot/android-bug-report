@@ -1,18 +1,16 @@
 package com.littledot.androidbugreport
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import android.view.View
+import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.zoomlayout_209.*
 
 /**
  * https://github.com/natario1/ZoomLayout/issues/209
  */
-class ZoomLayout209 : AppCompatActivity() {
+class ZoomLayout209 : Fragment(R.layout.zoomlayout_209) {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.zoomlayout_209)
-
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         btn160.setOnClickListener {
             loadImg(R.drawable.zoomlayout160)
         }
